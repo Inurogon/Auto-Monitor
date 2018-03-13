@@ -7,8 +7,8 @@ b=os.system('ping '+a)
 if(b==1):
     mailto_list=['fangjiacheng@northcom.cn']           #收件人(列表)  
     mail_host="smtp.163.com"            #使用的邮箱的smtp服务器地址，这里是163的smtp地址  
-    mail_user="kangpeili2010"                           #用户名  
-    mail_pass="1qa2ws"                             #密码  
+    mail_user="xxxxxxx"                           #用户名  
+    mail_pass="xxxxxxx"                             #密码  
     mail_postfix="163.com"                     #邮箱的后缀，网易就是163.com  
     def send_mail(to_list,sub,content):  
         me="告警信息"+"<"+mail_user+"@"+mail_postfix+">"  
