@@ -5,7 +5,7 @@ from email.mime.text import MIMEText
 a='10.210.5.3'
 b=os.system('ping '+a)
 if(b==1):
-    mailto_list=['xxx@northcom.cn']           #收件人(列表)  
+    mailto_list=['xxx@xxxxx.xx']           #收件人(列表)  
     mail_host="smtp.163.com"            #使用的邮箱的smtp服务器地址，这里是163的smtp地址  
     mail_user="xxxxxxx"                           #用户名  
     mail_pass="xxxxxxx"                             #密码  
